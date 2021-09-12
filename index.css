@@ -1,8 +1,9 @@
 body { font-size: 24px; background-color: hsl(185, 41%, 84%); font-family: spacemono;
 margin-top: 100px; 
-max-width: auto; }
+max-width: auto;
+width: 75%; }
 .attribution a { color: hsl(228, 45%, 44%); }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; width: 600px; transform: translate(75%); }
 @font-face {
     font-family: spacemono;
     src: url(font_family/SpaceMono-Regular.ttf);
@@ -24,7 +25,8 @@ max-width: auto; }
     margin-bottom: 25px;
 }
 #en_tete{
-text-align: center;
+transform: translate(100%);
+width: 600px;
 }
 input{
     font-family:Spacemonobold ;
@@ -113,13 +115,14 @@ button{
 @media screen and (max-width:947px){
     #all{
         display: block;
-        transform: translateX(0%);
-        width: 380px;
-        margin-right: 10px;
+        width: 300px;
+        transform: translate(50%);
     }
     #tip h3{
         margin-top: 5px;
-        margin-left: -10px;
+        margin-left: 120px;
+        position: absolute;
+        text-align: end;
     }
     #tip{
         width: 350px;
@@ -127,16 +130,17 @@ button{
         height: 80px;
     }
     #part2{
-        width: 365px;
+        width: 280px;
+        text-align: center;
     }
     #part1{
         width: 365px;
     }
     input{
-        width: 350px;
+        width: 250px;
     }
     .set{
-        margin-left: 20px;
+        margin-left: -130px;
         margin-bottom: 30px;
     }
     .threefirst{
@@ -146,4 +150,11 @@ button{
     button{
         width: 50px;
     }
+    #en_tete{
+        transform: translate(85%);
+        width: 300px;
+    }
+    .attribution { font-size: 11px; transform: translate(50%);
+        width: 300px; }
+
 }
