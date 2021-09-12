@@ -1,0 +1,149 @@
+body { font-size: 24px; background-color: hsl(185, 41%, 84%); font-family: spacemono;
+margin-top: 100px; 
+max-width: auto; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+@font-face {
+    font-family: spacemono;
+    src: url(font_family/SpaceMono-Regular.ttf);
+
+}
+@font-face {
+    font-family: Spacemonobold;
+    src: url(font_family/SpaceMono-Bold.ttf);
+
+}
+#all{
+    background-color:  hsl(0, 0%, 800%);
+    border-radius: 15px;
+    width: 600px;
+    transform: translateX(60%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#en_tete{
+text-align: center;
+}
+input{
+    font-family:Spacemonobold ;
+    font-size: 18px;
+    text-align: end;
+    color: hsl(183, 100%, 15%);
+    border-style: solid;
+    border-color:hsl(172, 67%, 45%);
+    border-radius: 5px;
+    background-color:  hsl(189, 41%, 97%);
+}
+.threefirst button{
+    width: 68px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 41%, 97%);
+    text-align: center;
+    margin-left: 12px;
+    height: 30px;
+}
+.threefirst{
+    display: flex;
+    margin-bottom: 14px;
+    margin-left: -12px;
+}
+.oh input{
+    background-color:  hsl(189, 41%, 97%);
+    margin-left: 10px;
+    width: 68px;
+    height: 30px;
+    color: hsl(183, 100%, 15%);
+    border-style: none;
+}
+p{
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.person{
+    margin-bottom: 10px;
+}
+#part1{
+    margin: 15px;
+}
+#part2{
+    background-color: hsl(183, 100%, 15%);
+    margin: 10px;
+    border-radius: 10px;
+}
+#tip{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+#tip h3{
+    border: none;
+    background-color: hsl(183, 100%, 15%);
+    font-size: 35px;
+    width: 150px;
+    color: hsl(172, 67%, 45%);
+    margin-top: -5px;
+    margin-left: 50px;
+    padding-right: -15px;
+}
+.set{
+    transform: translateX(30%);
+    margin-top: -20px;
+    border: none;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+pl{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);;
+}
+.alert{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-family: Spacemonobold;
+    font-size: 16px;
+}
+@media screen and (max-width:947px){
+    #all{
+        display: block;
+        transform: translateX(0%);
+        width: 380px;
+        margin-right: 10px;
+    }
+    #tip h3{
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+    #tip{
+        width: 350px;
+        margin: 0px;
+        height: 80px;
+    }
+    #part2{
+        width: 365px;
+    }
+    #part1{
+        width: 365px;
+    }
+    input{
+        width: 350px;
+    }
+    .set{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .threefirst{
+        width: 350px;
+        margin-right: 0px;
+    }
+    button{
+        width: 50px;
+    }
+}

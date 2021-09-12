@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+  
+  <!--Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body >
+  <div id="en_tete">
+    <img src="images/logo.svg" alt="">
+  </div>
+<div id="all">
+  <div id="part1">
+   <form action="" name="part1">
+    <p>Bill</p>
+    <input type="text" placeholder="0.00" class="bill" ><br>
+      <p>Select Tip % </p>
+      <div class="threefirst">
+        <button class="percentage" value="5">5%</button>
+        <button class="percentage" value="10">10%</button>
+        <button class="percentage" value="15">15%</button>
+      </div>
+      <div class="threefirst">
+        <button class="percentage" value="25">25%</button>
+        <button class="percentage" value="50">50%</button>
+        <div class="oh"><input type="text" placeholder="Custom" class="custom-percentage">  </div>
+      </div>
+      <div id="alert"><p> Number of People</p> </div>
+      <input type="text" class="person" placeholder="0">
+   </form>
+   </div>
+   <div id="part2">
+    <form action="" name="part2">
+     <div id="tip" >
+      <p>
+        <pl>  Tip Amount</pl> <br>
+          / person
+        </p>
+        
+        <h3 class="tipPerson">$0.00</h3>
+     </div>
+     <div id="tip">
+     <p>
+      <pl> Total</pl> <br>
+        / person
+     </p>
+       
+        <h3 class="tipTotal">$0.00</h3>
+     </div>
+  
+  
+    <button class="set">Reset</button>
+    </form>
+   </div>
+  
+</div>
+  
+  <div class="attribution" >
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
